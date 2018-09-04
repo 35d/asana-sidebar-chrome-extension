@@ -1,0 +1,26 @@
+.ModalLayer {
+  left: unset !important;
+  width: 25% !important;
+}
+
+.ProjectPageView-boardMountNode {
+  width: 75% !important;
+}
+
+.SingleTaskPaneModal-modal .ModalPaneWithBuffer-pane {
+  min-width: unset !important;
+  width: unset !important;
+  margin: 0 !important;
+  border-radius: 0px !important;
+}
+
+.ModalBuffer .ModalBuffer-topBuffer,
+.ModalBuffer .ModalBuffer-bottomBuffer {
+  flex: unset !important;
+  height: unset !important;
+  min-height: unset !important;
+}
+
+.BoardHeader {
+  margin: 15px 80px 0 !important;
+}

@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "asana_sidebar",
+  "version": "1.0",
+  "author": "yuji.tsuburaya",
+  "content_scripts": [
+    {
+      "matches": ["https://app.asana.com/*"],
+      "js": ["jquery.min.js", "script.js"],
+      "css": ["asana.css"]
+    }
+  ],
+  "permissions": ["tabs", "clipboardWrite"]
+}
