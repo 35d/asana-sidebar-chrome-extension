@@ -24,3 +24,13 @@
 .BoardHeader {
   margin: 15px 80px 0 !important;
 }
+
+.labelText {
+  color: #fff;
+}
+
+.BoardCardPotPills-potPill {
+  height: unset !important;
+  width: unset !important;
+  padding: 4px 12px;
+}
