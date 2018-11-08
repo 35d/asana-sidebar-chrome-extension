@@ -5,7 +5,6 @@ $(function() {
 
   const $draggableItemWrapper = $(".BoardColumnCardsContainer-draggableItemWrapper");
   $draggableItemWrapper.on("click", () => {
-    // console.log($(this));
     setTimeout(() => {
       const key = $(".Tokenizer-token")
         .attr("class")
@@ -13,8 +12,11 @@ $(function() {
         .replace("Token--", "");
       const value = $(".Token-label").text();
       localStorage.setItem(key, value.toString());
-      // appendLabelName();
     }, 3000);
+  });
+
+  $(".NavigationLink").on("click", () => {
+    appendLabelName();
   });
 });
 
