@@ -1,7 +1,9 @@
 $(function() {
   console.log("Asana Extension");
 
-  appendLabelName();
+  setTimeout(() => {
+    appendLabelName();
+  }, 3000);
 
   const $draggableItemWrapper = $(".BoardColumnCardsContainer-draggableItemWrapper");
   $draggableItemWrapper.on("click", () => {

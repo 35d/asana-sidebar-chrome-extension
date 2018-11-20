@@ -8,7 +8,8 @@
 }
 
 .SingleTaskPaneModal-modal .ModalPaneWithBuffer-pane {
-  min-width: unset !important;
+  min-width: 100% !important;
+  /* min-width: unset !important; */
   width: unset !important;
   margin: 0 !important;
   border-radius: 0px !important;
@@ -33,4 +34,11 @@
   height: unset !important;
   width: unset !important;
   padding: 4px 12px;
+}
+
+.CustomPropertyNumberPreviewCell-value {
+  background-color: #e0e6e8;
+  padding: 4px 8px;
+  line-height: 24px;
+  border-radius: 12px;
 }
